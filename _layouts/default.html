@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ site.styles }}
+  <style>
+    :root{
+      --accent:#e60028; /* adjust to Sopra Steria red if permitted by brand */
+      --text:#1c1c1c; --muted:#666; --bg:#fff;
+    }
+    body{font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:var(--text);background:var(--bg)}
+    header,footer{padding:1.25rem 1rem;max-width:980px;margin:auto}
+    nav a{margin-right:.9rem}
+    .container{max-width:980px;margin:auto;padding:1.25rem 1rem}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:.55rem .85rem;border-radius:6px;text-decoration:none}
+    .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{border:1px solid #eee;border-radius:10px;padding:1rem}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+<header>
+  <h1 style="margin:.2rem 0">{{ site.title }}</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/projects/">Projects</a>
+    <a href="/talks/">Talks</a>
+    <a href="/about/">About</a>
+    <a class="btn" href="mailto:{{ site.author.email }}">Contact</a>
+  </nav>
+</header>
+<div class="container">
+  {{ content }}
+</div>
+<footer class="muted">
+  © {{ site.time | date: "%Y" }} {{ site.author.name }} — Built with GitHub Pages
+</footer>
+</body>
+</html>
