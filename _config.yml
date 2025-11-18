@@ -1,3 +1,19 @@
-theme: jekyll-theme-minimal
-title: Fabian Reyes Portfolio
-description: Bookmark this to keep an eye on my project updates!
+title: "Fabian Reyes — Data Visualization & Analytics"
+description: "Data & AI consultant specializing in dashboards, storytelling, and analytics engineering."
+url: "https://<your-username>.github.io"
+theme: minima
+author:
+  name: "Fabian Reyes"
+  email: "fabian.reyes@soprasteria.com"
+  location: "Diegem, BE"
+  socials:
+    linkedin: "https://www.linkedin.com/in/<your-handle>/"
+    github: "https://github.com/<your-username>"
+permalink: /:categories/:title/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope: { path: "", type: "projects" }
+    values: { layout: project }
