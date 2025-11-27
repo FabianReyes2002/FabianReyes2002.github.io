@@ -1,0 +1,24 @@
+
+[
+  {
+    "id": "1",
+    "Name": "IronViz 2025",
+    "Desc": "Inzending voor IronViz 2025, een datavisualisatie wedstrijd georganiseerd door Het DataTeam.",
+    "Img": "Afbeeldingen/IronViz2025.png",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiMWUzNjc2Y2UtZjEyZi00YzFkLWE3MmMtZGRkNjZhYmE5N2E4IiwidCI6IjM4OGQwNjY3LTE2ZWQtNDM4ZC04ZmJlLTA3YTlhYzQwZjk4MCIsImMiOjh9"
+  },
+  {
+    "id": "2",
+    "Name": "Meliopus",
+    "Desc": "Fictief project voor een consultancy bedrijf",
+    "Img": "Afbeeldingen/Meliopus.png",
+    "url": "https://github.com/fabian/data-analyse-tool"
+  },
+  {
+    "id": "3",
+    "Name": "Duvel",
+    "Desc": "ESG rapportage dashboard voor Duvel Moortgat",
+    "Img": "Afbeeldingen/Duvel.png",
+    "url": "https://fabian-shop.com"
+  }
+]
